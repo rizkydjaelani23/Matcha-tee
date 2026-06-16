@@ -1,0 +1,140 @@
+{%- comment -%}The Matcha Tee — product page reviews from custom.etsy_reviews metafield{%- endcomment -%}
+{%- assign reviews = product.metafields.custom.etsy_reviews.value -%}
+{%- if reviews and reviews.size > 0 -%}
+
+{%- assign show_limit = 6 -%}
+{%- assign more_count = reviews.size | minus: show_limit -%}
+
+<section id="tmt-rp-{{ section.id }}" class="tmt-rp">
+  <div class="page-width tmt-rp__inner">
+
+    <header class="tmt-rp__header">
+      <h3 class="tmt-rp__heading">Customer Reviews</h3>
+      {%- assign total = reviews.size -%}
+      {%- assign sum = 0 -%}
+      {%- for rv in reviews -%}{%- assign sum = sum | plus: rv.rating -%}{%- endfor -%}
+      {%- assign avg = sum | times: 1.0 | divided_by: total | round -%}
+      <div class="tmt-rp__agg">
+        {%- render 'tmt-stars', rating: avg -%}
+        <span class="tmt-rp__agg-text">
+          {{ avg }}.0 out of 5 &nbsp;&middot;&nbsp;
+          {{ total }} review{%- if total != 1 -%}s{%- endif -%}
+          &nbsp;&middot;&nbsp; Verified Etsy purchases
+        </span>
+      </div>
+    </header>
+
+    <ol class="tmt-rp__list">
+      {%- for rv in reviews -%}
+        <li class="tmt-rp__item{% if forloop.index > show_limit %} tmt-rp__item--hidden{% endif %}">
+          <div class="tmt-rp__item-top">
+            {%- render 'tmt-stars', rating: rv.rating -%}
+            <time class="tmt-rp__item-date">{{ rv.date }}</time>
+          </div>
+          <p class="tmt-rp__item-text">{{ rv.text }}</p>
+          <div class="tmt-rp__item-reviewer">
+            <span class="tmt-rp__item-avatar" aria-hidden="true">
+              {{- rv.reviewer | slice: 0 | upcase -}}
+            </span>
+            <span class="tmt-rp__item-name">{{ rv.reviewer }}</span>
+            <span class="tmt-rp__item-badge">&#10003; Verified purchase</span>
+          </div>
+        </li>
+      {%- endfor -%}
+    </ol>
+
+    {%- if more_count > 0 -%}
+      <div class="tmt-rp__more-wrap">
+        <button
+          class="tmt-rp__show-more"
+          onclick="
+            this.closest('.tmt-rp').querySelectorAll('.tmt-rp__item--hidden')
+              .forEach(function(el){ el.classList.remove('tmt-rp__item--hidden'); });
+            this.parentNode.remove();
+          "
+        >
+          Show {{ more_count }} more review{%- if more_count != 1 -%}s{%- endif -%}
+        </button>
+      </div>
+    {%- endif -%}
+
+  </div>
+</section>
+
+<style>
+  .tmt-rp{
+    background:#FFFFFF;
+    border-top:1px solid #EAE0D5;
+    padding:48px 0;
+  }
+  .tmt-rp__inner{max-width:860px;margin:0 auto;padding:0 24px;}
+  .tmt-rp__header{margin-bottom:32px;}
+  .tmt-rp__heading{
+    font-size:1.3rem;font-weight:600;color:#6F5840;margin:0 0 12px;
+  }
+  .tmt-rp__agg{display:flex;align-items:center;gap:10px;flex-wrap:wrap;}
+  .tmt-rp__agg-text{font-size:.88rem;color:#6F5840;opacity:.72;}
+
+  .tmt-rp__list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:0;}
+  .tmt-rp__item{
+    padding:24px 0;
+    border-bottom:1px solid #EAE0D5;
+  }
+  .tmt-rp__item:last-child{border-bottom:none;padding-bottom:0;}
+  .tmt-rp__item--hidden{display:none;}
+
+  .tmt-rp__item-top{display:flex;align-items:center;gap:12px;margin-bottom:10px;}
+  .tmt-rp__item-date{font-size:.78rem;color:#6F5840;opacity:.5;margin-left:auto;}
+  .tmt-rp__item-text{
+    font-size:.96rem;line-height:1.72;color:#6F5840;margin:0 0 14px;
+  }
+  .tmt-rp__item-reviewer{display:flex;align-items:center;gap:8px;}
+  .tmt-rp__item-avatar{
+    width:30px;height:30px;border-radius:50%;
+    background:#658C5E;color:#FFF0D6;
+    display:flex;align-items:center;justify-content:center;
+    font-size:.8rem;font-weight:700;flex-shrink:0;
+  }
+  .tmt-rp__item-name{font-size:.85rem;font-weight:600;color:#6F5840;}
+  .tmt-rp__item-badge{
+    font-size:.72rem;background:#EAF3DE;color:#3B6D11;
+    padding:2px 8px;border-radius:4px;margin-left:4px;
+  }
+
+  .tmt-rp__more-wrap{
+    text-align:center;
+    padding:28px 0 0;
+  }
+  .tmt-rp__show-more{
+    background:none;
+    border:1px solid #658C5E;
+    color:#658C5E;
+    border-radius:8px;
+    padding:10px 28px;
+    font-size:.9rem;
+    font-weight:500;
+    cursor:pointer;
+    transition:background .18s ease, color .18s ease;
+  }
+  .tmt-rp__show-more:hover{
+    background:#658C5E;
+    color:#FFF0D6;
+  }
+
+  @media(max-width:640px){
+    .tmt-rp{padding:36px 0;}
+    .tmt-rp__agg-text{font-size:.8rem;}
+  }
+</style>
+
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Product Reviews",
+  "tag": "section",
+  "class": "tmt-product-reviews",
+  "settings": [],
+  "presets": [{ "name": "Product Reviews" }]
+}
+{% endschema %}

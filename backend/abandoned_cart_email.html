@@ -1,0 +1,130 @@
+<!-- ============================================================
+  THE MATCHA TEE — Abandoned Checkout Email
+  For: Marketing > Automations > Recover abandoned checkout > Edit email
+
+  HOW TO USE IN SHOPIFY EMAIL EDITOR:
+  1. Delete all default blocks in the editor
+  2. Add an "HTML" block → paste the TOP SECTION below (header through urgency)
+  3. Add a "Products" or "Checkout items" block (Shopify's native block — this
+     renders the actual cart items with images, names, sizes, prices automatically)
+  4. Add another "HTML" block → paste the BOTTOM SECTION (CTA through footer)
+
+  Subject line: You left something behind, {{ customer.first_name }} 👀
+  Preview text: Only 10 left — these sell fast. Don't lose your spot.
+  ============================================================ -->
+
+<!-- ══════════════════════════════════════════
+     TOP SECTION — paste into first HTML block
+     ══════════════════════════════════════════ -->
+<div style="font-family:'Helvetica Neue',Arial,sans-serif;max-width:600px;margin:0 auto;">
+
+  <!-- Header -->
+  <div style="background:#1a1a1a;padding:20px 32px;text-align:center;">
+    <p style="margin:0;font-size:13px;letter-spacing:3px;text-transform:uppercase;color:#d4b896;font-weight:700;">The Matcha Tee</p>
+  </div>
+
+  <!-- Hero -->
+  <div style="background:#1a1a1a;padding:36px 32px 28px;">
+    <p style="margin:0 0 10px;font-size:30px;font-weight:800;line-height:1.2;color:#ffffff;letter-spacing:-0.5px;">
+      You left something iconic behind.
+    </p>
+    <p style="margin:0;font-size:15px;color:#a0a0a0;line-height:1.6;">
+      Hey {{ customer.first_name }}, your cart is still saved — but these designs won't hang around.
+    </p>
+  </div>
+
+  <!-- Urgency banner -->
+  <div style="background:#d4b896;padding:11px 32px;text-align:center;">
+    <p style="margin:0;font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#1a1a1a;">
+      ⚡ Only 10 left in stock — selling fast
+    </p>
+  </div>
+
+  <!-- "Still in your cart" label -->
+  <div style="background:#ffffff;padding:24px 32px 8px;">
+    <p style="margin:0;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#999;font-weight:600;">
+      Still in your cart
+    </p>
+  </div>
+
+</div>
+<!-- END TOP SECTION -->
+
+
+<!-- ══════════════════════════════════════════════════════════
+     MIDDLE: Add Shopify's native "Products" / "Cart items"
+     block here in the email editor. It will automatically
+     show the actual items the customer left behind, with
+     product images, names, sizes, and prices.
+     ══════════════════════════════════════════════════════════ -->
+
+
+<!-- ══════════════════════════════════════════════
+     BOTTOM SECTION — paste into second HTML block
+     ══════════════════════════════════════════════ -->
+<div style="font-family:'Helvetica Neue',Arial,sans-serif;max-width:600px;margin:0 auto;">
+
+  <!-- Low stock warning -->
+  <div style="background:#ffffff;padding:8px 32px 24px;">
+    <div style="background:#fff8f0;border:1px solid #f0d9b8;border-radius:4px;padding:14px 18px;">
+      <p style="margin:0 0 3px;font-size:13px;font-weight:700;color:#b8560a;">Low stock alert</p>
+      <p style="margin:0;font-size:12px;color:#666;line-height:1.5;">
+        We only keep 10 units of each design available. Once a design sells out it may not come back — these are limited-run graphic tees, not fast fashion reprints.
+      </p>
+    </div>
+  </div>
+
+  <!-- Main CTA -->
+  <div style="background:#ffffff;padding:4px 32px 24px;text-align:center;">
+    <a href="{{ checkout.abandoned_checkout_url }}"
+       style="display:inline-block;background:#1a1a1a;color:#ffffff;text-decoration:none;
+              font-size:15px;font-weight:700;letter-spacing:1px;text-transform:uppercase;
+              padding:16px 40px;border-radius:3px;min-width:220px;">
+      Complete My Order →
+    </a>
+    <p style="margin:10px 0 0;font-size:12px;color:#aaa;">Your cart is saved — one click and you're done.</p>
+  </div>
+
+  <!-- 3 trust pillars -->
+  <div style="background:#ffffff;padding:20px 32px 28px;border-top:1px solid #f0f0f0;">
+    <table width="100%" cellpadding="0" cellspacing="0">
+      <tr>
+        <td style="width:33%;padding-right:10px;vertical-align:top;">
+          <p style="margin:0 0 3px;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#1a1a1a;">Vintage prints</p>
+          <p style="margin:0;font-size:12px;color:#888;line-height:1.5;">Retro celebrity &amp; fan designs you won't find on the high street.</p>
+        </td>
+        <td style="width:33%;padding:0 5px;vertical-align:top;text-align:center;">
+          <p style="margin:0 0 3px;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#1a1a1a;">Free UK shipping</p>
+          <p style="margin:0;font-size:12px;color:#888;line-height:1.5;">On every order, always.</p>
+        </td>
+        <td style="width:33%;padding-left:10px;vertical-align:top;text-align:right;">
+          <p style="margin:0 0 3px;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#1a1a1a;">Sizes S–5XL</p>
+          <p style="margin:0;font-size:12px;color:#888;line-height:1.5;">Premium heavyweight tees built to last.</p>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- Dark footer CTA -->
+  <div style="background:#1a1a1a;padding:20px 32px;text-align:center;">
+    <p style="margin:0 0 10px;font-size:12px;color:#d4b896;letter-spacing:2px;text-transform:uppercase;font-weight:600;">Or keep browsing</p>
+    <a href="https://thematchatee.com/collections/all"
+       style="color:#ffffff;text-decoration:none;font-size:13px;font-weight:600;border-bottom:1px solid #555;padding-bottom:2px;">
+      See all graphic tees →
+    </a>
+  </div>
+
+  <!-- Footer -->
+  <div style="background:#f5f4f0;padding:20px 32px;text-align:center;">
+    <p style="margin:0 0 6px;font-size:12px;color:#999;line-height:1.6;">
+      You received this because you started a checkout at
+      <a href="https://thematchatee.com" style="color:#1a1a1a;font-weight:600;">The Matcha Tee</a>.
+    </p>
+    <p style="margin:0;font-size:11px;color:#bbb;">
+      <a href="{{ unsubscribe_url }}" style="color:#bbb;">Unsubscribe</a>
+      &nbsp;·&nbsp; thematchatee.com
+    </p>
+  </div>
+
+</div>
+<!-- END BOTTOM SECTION -->

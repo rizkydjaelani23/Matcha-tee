@@ -1,0 +1,27 @@
+# Secrets — never commit these
+backend/.env
+**/.env
+
+# Large files / generated outputs
+backend/designs/
+scraper/images/
+backend/reupload_checkpoint.json
+backend/sync_images_checkpoint.json
+backend/sync_main_checkpoint.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Node
+node_modules/
+.next/
+dist/
+
+# OS
+.DS_Store
+Thumbs.db

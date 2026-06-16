@@ -1,0 +1,575 @@
+{
+  "sections": {
+    "hero_main": {
+      "type": "hero",
+      "blocks": {
+        "hero_heading": {
+          "type": "text",
+          "settings": {
+            "text": "<h1>Statement tees, made to order</h1>",
+            "type_preset": "h1",
+            "alignment": "center",
+            "width": "fit-content",
+            "font": "var(--font-body--family)",
+            "color": "var(--color-foreground-heading)"
+          },
+          "blocks": {}
+        },
+        "hero_sub": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Original designs, printed on premium cotton and shipped tracked to your door.</p>",
+            "type_preset": "rte",
+            "alignment": "center",
+            "width": "fit-content",
+            "font": "var(--font-body--family)"
+          },
+          "blocks": {}
+        },
+        "hero_btn_new": {
+          "type": "button",
+          "settings": {
+            "label": "Shop New Releases",
+            "link": "shopify://collections/new-releases",
+            "style_class": "button-secondary",
+            "width": "fit-content",
+            "width_mobile": "fit-content"
+          },
+          "blocks": {}
+        },
+        "hero_btn_best": {
+          "type": "button",
+          "settings": {
+            "label": "Best Sellers",
+            "link": "shopify://collections/best-sellers",
+            "style_class": "button-secondary",
+            "width": "fit-content",
+            "width_mobile": "fit-content"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "hero_heading",
+        "hero_sub",
+        "hero_btn_new",
+        "hero_btn_best"
+      ],
+      "name": "Hero",
+      "settings": {
+        "media_type_1": "image",
+        "media_type_2": "image",
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "full-width",
+        "section_height": "medium",
+        "color_scheme": "scheme-6",
+        "toggle_overlay": true,
+        "overlay_color": "#12121266",
+        "overlay_style": "solid",
+        "padding-block-start": 96,
+        "padding-block-end": 96
+      }
+    },
+    "marquee_strip": {
+      "type": "marquee",
+      "blocks": {
+        "marquee_text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>New designs weekly &nbsp;\u2022&nbsp; Tracked shipping to the UK &nbsp;\u2022&nbsp; Printed to order &nbsp;\u2022&nbsp; Easy 30-day returns &nbsp;\u2022&nbsp;</p>",
+            "type_preset": "custom",
+            "font": "var(--font-body--family)",
+            "font_size": "var(--font-size--h4)",
+            "line_height": "tight",
+            "wrap": "nowrap",
+            "width": "fit-content"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "marquee_text"
+      ],
+      "name": "Marquee",
+      "settings": {
+        "movement_direction": "normal",
+        "color_scheme": "scheme-4",
+        "padding-block-start": 16,
+        "padding-block-end": 16,
+        "gap_between_elements": 24
+      }
+    },
+    "new_releases": {
+      "type": "product-list",
+      "blocks": {
+        "static-header": {
+          "type": "_product-list-content",
+          "static": true,
+          "settings": {
+            "content_direction": "row",
+            "horizontal_alignment": "space-between",
+            "vertical_alignment": "flex-end",
+            "align_baseline": true,
+            "gap": 12,
+            "width": "fill",
+            "width_mobile": "fill",
+            "height": "fit",
+            "inherit_color_scheme": true
+          },
+          "blocks": {
+            "pl_title": {
+              "type": "_product-list-text",
+              "settings": {
+                "text": "<h3>{{ closest.collection.title }}</h3>",
+                "type_preset": "h4",
+                "alignment": "left",
+                "width": "fit-content",
+                "font": "var(--font-body--family)",
+                "color": "var(--color-foreground)"
+              },
+              "blocks": {}
+            },
+            "pl_viewall": {
+              "type": "_product-list-button",
+              "settings": {
+                "label": "View all",
+                "style_class": "link",
+                "width": "fit-content",
+                "width_mobile": "fit-content"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "pl_title",
+            "pl_viewall"
+          ]
+        },
+        "static-product-card": {
+          "type": "_product-card",
+          "static": true,
+          "settings": {
+            "product_card_gap": 4,
+            "inherit_color_scheme": true
+          },
+          "blocks": {
+            "pc_gallery": {
+              "type": "_product-card-gallery",
+              "settings": {
+                "image_ratio": "adapt"
+              },
+              "blocks": {}
+            },
+            "pc_title": {
+              "type": "product-title",
+              "settings": {
+                "width": "100%",
+                "type_preset": "rte",
+                "font_size": "1rem",
+                "padding-block-start": 4
+              },
+              "blocks": {}
+            },
+            "pc_price": {
+              "type": "price",
+              "settings": {
+                "show_sale_price_first": true,
+                "type_preset": "h6",
+                "width": "100%",
+                "font_size": "1rem"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "pc_gallery",
+            "pc_title",
+            "pc_price"
+          ]
+        }
+      },
+      "name": "New Releases",
+      "settings": {
+        "collection": "new-releases",
+        "layout_type": "grid",
+        "carousel_on_mobile": true,
+        "max_products": 8,
+        "columns": 4,
+        "mobile_columns": "2",
+        "columns_gap": 8,
+        "rows_gap": 24,
+        "section_width": "page-width",
+        "color_scheme": "scheme-1",
+        "padding-block-start": 48,
+        "padding-block-end": 48
+      }
+    },
+    "shop_by_category": {
+      "type": "collection-list",
+      "blocks": {
+        "cat_header": {
+          "type": "group",
+          "settings": {
+            "content_direction": "column",
+            "gap": 16,
+            "width": "fill",
+            "width_mobile": "fill",
+            "height": "fit",
+            "inherit_color_scheme": true
+          },
+          "blocks": {
+            "cat_heading": {
+              "type": "text",
+              "settings": {
+                "text": "<h3>Shop by category</h3>",
+                "type_preset": "h4",
+                "alignment": "left",
+                "width": "fit-content",
+                "font": "var(--font-body--family)",
+                "padding-block-end": 16
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "cat_heading"
+          ]
+        },
+        "static-collection-card": {
+          "type": "_collection-card",
+          "static": true,
+          "settings": {
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "flex-end",
+            "placement": "on_image",
+            "inherit_color_scheme": true
+          },
+          "blocks": {
+            "collection-card-image": {
+              "type": "_collection-card-image",
+              "static": true,
+              "settings": {
+                "image_ratio": "adapt"
+              }
+            },
+            "collection-title": {
+              "type": "collection-title",
+              "settings": {
+                "type_preset": "rte",
+                "width": "fit-content",
+                "alignment": "left",
+                "background": true,
+                "background_color": "#ffffff",
+                "padding-block-start": 4,
+                "padding-block-end": 4,
+                "padding-inline-start": 8,
+                "padding-inline-end": 8
+              }
+            }
+          }
+        }
+      },
+      "block_order": [
+        "cat_header"
+      ],
+      "name": "Shop by category",
+      "settings": {
+        "collection_list": [
+          "t-shirts",
+          "hoodies-sweatshirts",
+          "tank-tops",
+          "accessories"
+        ],
+        "layout_type": "grid",
+        "columns": 4,
+        "mobile_columns": "2",
+        "columns_gap": 8,
+        "rows_gap": 8,
+        "section_width": "page-width",
+        "padding-block-start": 24,
+        "padding-block-end": 24
+      }
+    },
+    "best_sellers": {
+      "type": "product-list",
+      "blocks": {
+        "static-header": {
+          "type": "_product-list-content",
+          "static": true,
+          "settings": {
+            "content_direction": "row",
+            "horizontal_alignment": "space-between",
+            "vertical_alignment": "flex-end",
+            "align_baseline": true,
+            "gap": 12,
+            "width": "fill",
+            "width_mobile": "fill",
+            "height": "fit",
+            "inherit_color_scheme": true
+          },
+          "blocks": {
+            "pl_title": {
+              "type": "_product-list-text",
+              "settings": {
+                "text": "<h3>{{ closest.collection.title }}</h3>",
+                "type_preset": "h4",
+                "alignment": "left",
+                "width": "fit-content",
+                "font": "var(--font-body--family)",
+                "color": "var(--color-foreground)"
+              },
+              "blocks": {}
+            },
+            "pl_viewall": {
+              "type": "_product-list-button",
+              "settings": {
+                "label": "View all",
+                "style_class": "link",
+                "width": "fit-content",
+                "width_mobile": "fit-content"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "pl_title",
+            "pl_viewall"
+          ]
+        },
+        "static-product-card": {
+          "type": "_product-card",
+          "static": true,
+          "settings": {
+            "product_card_gap": 4,
+            "inherit_color_scheme": true
+          },
+          "blocks": {
+            "pc_gallery": {
+              "type": "_product-card-gallery",
+              "settings": {
+                "image_ratio": "adapt"
+              },
+              "blocks": {}
+            },
+            "pc_title": {
+              "type": "product-title",
+              "settings": {
+                "width": "100%",
+                "type_preset": "rte",
+                "font_size": "1rem",
+                "padding-block-start": 4
+              },
+              "blocks": {}
+            },
+            "pc_price": {
+              "type": "price",
+              "settings": {
+                "show_sale_price_first": true,
+                "type_preset": "h6",
+                "width": "100%",
+                "font_size": "1rem"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "pc_gallery",
+            "pc_title",
+            "pc_price"
+          ]
+        }
+      },
+      "name": "Best Sellers",
+      "settings": {
+        "collection": "best-sellers",
+        "layout_type": "grid",
+        "carousel_on_mobile": true,
+        "max_products": 8,
+        "columns": 4,
+        "mobile_columns": "2",
+        "columns_gap": 8,
+        "rows_gap": 24,
+        "section_width": "page-width",
+        "color_scheme": "scheme-1",
+        "padding-block-start": 48,
+        "padding-block-end": 48
+      }
+    },
+    "trust_badges": {
+      "type": "custom-liquid",
+      "name": "Trust badges",
+      "settings": {
+        "custom_liquid": "\n<div style=\"display:flex;gap:40px;justify-content:center;flex-wrap:wrap;text-align:center;padding:12px 0;\">\n  <div style=\"min-width:200px;\">\n    <p style=\"font-size:1.05rem;\"><strong>Tracked UK delivery</strong><br>\n    <span style=\"opacity:.75;\">Every order ships with tracking</span></p>\n  </div>\n  <div style=\"min-width:200px;\">\n    <p style=\"font-size:1.05rem;\"><strong>Secure checkout</strong><br>\n    <span style=\"opacity:.75;\">Safe payments, every time</span></p>\n  </div>\n  <div style=\"min-width:200px;\">\n    <p style=\"font-size:1.05rem;\"><strong>30-day returns</strong><br>\n    <span style=\"opacity:.75;\">Easy returns &amp; exchanges</span></p>\n  </div>\n</div>\n",
+        "color_scheme": "scheme-2",
+        "section_width": "full-width",
+        "padding-block-start": 32,
+        "padding-block-end": 32
+      }
+    },
+    "tmt_reviews_home": {
+      "type": "tmt-reviews-home",
+      "blocks": {
+        "rv_145afaf": {
+          "type": "review",
+          "settings": {
+            "rating": 5,
+            "text": "Good quality and the picture is beautiful",
+            "name": "Mauricio",
+            "product": "Retro Fitzwilliam Darcy Shirt",
+            "date": "Sep 2025"
+          }
+        },
+        "rv_f53aee0": {
+          "type": "review",
+          "settings": {
+            "rating": 5,
+            "text": "Good quality and the picture looks great",
+            "name": "Mauricio",
+            "product": "Princess Diana Retro Shirt",
+            "date": "Sep 2025"
+          }
+        },
+        "rv_7306bb3": {
+          "type": "review",
+          "settings": {
+            "rating": 5,
+            "text": "Replied to my query quickly and a fast delivery",
+            "name": "Rory",
+            "product": "Tzuyu Twice",
+            "date": "Sep 2025"
+          }
+        },
+        "rv_9dec224": {
+          "type": "review",
+          "settings": {
+            "rating": 5,
+            "text": "I love the item! Friends love it too!",
+            "name": "Baylie",
+            "product": "DAMON SALVATORE Retro Shirt",
+            "date": "Sep 2025"
+          }
+        },
+        "rv_eba4d35": {
+          "type": "review",
+          "settings": {
+            "rating": 5,
+            "text": "This was a bday gift for my John Krasinski obsessed friend and she loved it!",
+            "name": "Ally",
+            "product": "LIMITED BRENDAN FRASER Unisex Shirts",
+            "date": "Sep 2025"
+          }
+        },
+        "rv_11f903a": {
+          "type": "review",
+          "settings": {
+            "rating": 5,
+            "text": "it went well and the product was good",
+            "name": "willy",
+            "product": "Tom Jones Shirt",
+            "date": "Sep 2025"
+          }
+        },
+        "rv_0235cf4": {
+          "type": "review",
+          "settings": {
+            "rating": 5,
+            "text": "Perfect for the American Pyscho lover !!! Definitely recommend!",
+            "name": "Nebraska",
+            "product": "PATRICK SWAYZE Shirt",
+            "date": "Sep 2024"
+          }
+        },
+        "rv_b1745fc": {
+          "type": "review",
+          "settings": {
+            "rating": 5,
+            "text": "Bought it for my daughter and she loved it.",
+            "name": "Sean",
+            "product": "SERJ TANKIAN Vintage T-shirt - Serj Tankian Bootleg Tee",
+            "date": "Sep 2024"
+          }
+        },
+        "rv_024c397": {
+          "type": "review",
+          "settings": {
+            "rating": 5,
+            "text": "Came really fast for an international send. Good quality and just as expected thank you very much",
+            "name": "Catrin",
+            "product": "Evan Buckley Retro Shirt",
+            "date": "Sep 2024"
+          }
+        },
+        "rv_2c66913": {
+          "type": "review",
+          "settings": {
+            "rating": 5,
+            "text": "Arrived on time and great gift",
+            "name": "Whitney",
+            "product": "Evan Buckley Retro Shirt",
+            "date": "Sep 2024"
+          }
+        },
+        "rv_2069d65": {
+          "type": "review",
+          "settings": {
+            "rating": 5,
+            "text": "Great item I love it",
+            "name": "Taylor",
+            "product": "Evan Buckley Retro Shirt",
+            "date": "Sep 2024"
+          }
+        },
+        "rv_99d2b72": {
+          "type": "review",
+          "settings": {
+            "rating": 5,
+            "text": "Lovely shirt, they we're so nice too while shipping",
+            "name": "Wilder",
+            "product": "Evan Buckley Retro Shirt",
+            "date": "Sep 2024"
+          }
+        }
+      },
+      "block_order": [
+        "rv_145afaf",
+        "rv_f53aee0",
+        "rv_7306bb3",
+        "rv_9dec224",
+        "rv_eba4d35",
+        "rv_11f903a",
+        "rv_0235cf4",
+        "rv_b1745fc",
+        "rv_024c397",
+        "rv_2c66913",
+        "rv_2069d65",
+        "rv_99d2b72"
+      ],
+      "settings": {
+        "heading": "What our customers say",
+        "subheading": "Over 1,000 verified purchases on Etsy",
+        "aggregate": "4.9 / 5 from 1,038 reviews",
+        "show_cta": true,
+        "cta_label": "Shop now",
+        "cta_url": "/collections/all",
+        "bg": "#FFFFFF",
+        "card_bg": "#FAF7F4",
+        "card_border": "#EAE0D5",
+        "text": "#6F5840",
+        "accent": "#658C5E"
+      }
+    }
+  },
+  "order": [
+    "hero_main",
+    "marquee_strip",
+    "new_releases",
+    "shop_by_category",
+    "best_sellers",
+    "tmt_reviews_home",
+    "trust_badges"
+  ]
+}

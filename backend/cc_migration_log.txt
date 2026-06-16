@@ -1,0 +1,34 @@
+Configured 15 colors × 6 sizes = 90 variants
+Colors: White, Black, Pepper, Grey, Navy, Red, Chili, Espresso, Ivory, Mustard, Butter, Bay, Blossom, Neon Pink, Light Green
+Retail price: £29.99
+Loaded 1013 design images from CSV
+
+Fetching Shopify products...
+Found 112 active products
+
+  [DEDUP] Skipping duplicate: Addison Rae Vintage Retro Shirt (id=7697942937713, keeping id=7697746788465)
+  [DEDUP] Skipping duplicate: AL PACINO Retro T-shirt - Al Pacino Vintage Tee (id=7697755373681, keeping id=7697475010673)
+  [DEDUP] Skipping duplicate: ALICE CULLEN Shirt (id=7697763139697, keeping id=7697509417073)
+  [DEDUP] Skipping duplicate: AUSTIN BUTLER 90's T-shirt - Austin Butler Bootleg Tees (id=7697763631217, keeping id=7697522950257)
+  [DEDUP] Skipping duplicate: Balki Bartokomous Retro Shirt (id=7697765040241, keeping id=7697531764849)
+  [DEDUP] Skipping duplicate: BERNIE MAC Shirt (id=7697767235697, keeping id=7697540153457)
+  [DEDUP] Skipping duplicate: Big Ocean Shirt (id=7697770545265, keeping id=7697548476529)
+  [DEDUP] Skipping duplicate: BLAIR WALDORF Shirt (id=7697772281969, keeping id=7697552408689)
+  [DEDUP] Skipping duplicate: Chaeyoung Retro Shirt (id=7697779490929, keeping id=7697561682033)
+  [DEDUP] Skipping duplicate: COURTNEY LOVE Shirt (id=7697781194865, keeping id=7697564926065)
+  [DEDUP] Skipping duplicate: Da Vinci Retro Shirt (id=7697784504433, keeping id=7697566793841)
+  [DEDUP] Skipping duplicate: DAMIANO DAVID TEES (id=7697786372209, keeping id=7697570234481)
+  [DEDUP] Skipping duplicate: Fitzgerald Grant Scandal Tv Show Vintage T-Shirt (id=7697828118641, keeping id=7697615880305)
+After dedup: 99 unique products
+
+
+[1/99] Addison Rae Vintage Retro Shirt
+  Using CSV design image
+  Uploading design image...
+  Creating Comfort Colors product on Printify...
+  Printify product: 6a2fc2bfcea4b16ddd04f6c0
+  Publishing to Shopify...
+  New Shopify ID: 7698194268273
+  Old product deleted, handle migrated
+  DONE ✓
+  Waiting 65s...

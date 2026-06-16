@@ -1,0 +1,647 @@
+Watching for 99 design PNGs...
+  Extracted: 465  |  Missing: 0
+
+All PNGs ready — step 1: reupload to Printify...
+
+
+Reupload done (exit 4294967295). Waiting 90s for Printify to regenerate mockups...
+
+Step 2: sync fresh Printify mockups to Shopify...
+
+Products to process: 99
+
+[1/99] Addison Rae Vintage Retro Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[2/99] AL PACINO Retro T-shirt - Al Pacino Vintage Tee
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[3/99] AL PACINO Shirt
+  ! Could not fetch Shopify variants
+
+[4/99] ALEXANDER SKARSGARD Shirt
+  ! Could not fetch Shopify variants
+
+[5/99] ALICE CULLEN Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[6/99] AUSTIN BUTLER 90's T-shirt - Austin Butler Bootleg Tees
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[7/99] Balki Bartokomous Retro Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[8/99] BERNIE MAC Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[9/99] Big Ocean Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[10/99] BLAIR WALDORF Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[11/99] BYEON WOO SEOK Shirt
+  ! Could not fetch Shopify variants
+
+[12/99] CHA EUNWOO T-shirt - Cha Eunwoo Fans Shirt
+  ! Could not fetch Shopify variants
+
+[13/99] Chaeyoung Retro Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[14/99] COURTNEY LOVE Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[15/99] Da Vinci Retro Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[16/99] DAMIANO DAVID TEES
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[17/99] DAMON SALVATORE Retro Shirt
+  ! Could not fetch Shopify variants
+
+[18/99] DAVID ATTENBOROUGH Shirt
+  ! Could not fetch Shopify variants
+
+[19/99] DAVID TENNANT Vintage
+  ! Could not fetch Shopify variants
+
+[20/99] DEREK SHEPHERD Shirt
+  ! Could not fetch Shopify variants
+
+[21/99] DEWEY Shirt
+  ! Could not fetch Shopify variants
+
+[22/99] EDDIE DIAZ Vintage Shirt
+  ! Could not fetch Shopify variants
+
+[23/99] EDDIE DIAZ Vintage Sweatshirt
+  ! Could not fetch Shopify variants
+
+[24/99] ETHAN HAWKE Shirt
+  ! Could not fetch Shopify variants
+
+[25/99] Evan Buckley Retro Shirt
+  ! Could not fetch Shopify variants
+
+[26/99] Evan Buckley Retro Sweatshirt
+  ! Could not fetch Shopify variants
+
+[27/99] Evan Peters Shirt
+  ! Could not fetch Shopify variants
+
+[28/99] FINN WOLFHARD Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[29/99] Fitzgerald Grant Scandal Tv Show Vintage T-Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[30/99] Fitzwilliam Darcy Comfort Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[31/99] Fitzwilliam Darcy Kids Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[32/99] Fitzwilliam Darcy Regular Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[33/99] Fitzwilliam Darcy Sweatshirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[34/99] GAVIN NEWSOM Vintage Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[35/99] GWEN STEFANI Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[36/99] Han So-hee
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[37/99] HOWARD HAN Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[38/99] JACK DAWSON Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[39/99] JACOB SARTORIOUS vintage shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[40/99] JAMIE CAMPBELL BOWER Retro T-shirt - Jamie Campbell Tee
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[41/99] JAMIE CAMPBELL Retro T-shirt - Jamie Campbell Tee
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[42/99] JENNA MARBLES Retro T-shirt - Jenna Marbles Homage Tees
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[43/99] Jenna Marbles Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[44/99] Jihyo Twice
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[45/99] Johnny Depp Retro Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[46/99] JON BERNTHAL Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[47/99] KIM GO-EUN Vintage Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[48/99] LALO SALAMANCA Shirt | Lalo Salamanca Vintage T-Shirt | Lalo Sala
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[49/99] LEE DOHYUN Vintage Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[50/99] LEE DONGWOOK Retro T-shirt - Lee Dongwook Tee
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[51/99] Leonardo DiCaprio Retro Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[52/99] Leonardo DiCaprio Retro Sweatshirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[53/99] LEONARDO DiCaprio Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[54/99] LIMITED BRENDAN FRASER Unisex Shirts
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[55/99] Limited EDDIE DIAZ Retro Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[56/99] Limited Evan Buckley Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[57/99] Limited Pauly Shore shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[58/99] MAX BLACK Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[59/99] Meghan Markle Retro Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[60/99] Meghan Markle Sweatshirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[61/99] MERYL STREEP Vintage Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[62/99] MITCHEL MUSSO Sweatshirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[63/99] Momo Twice
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[64/99] Mr Feeny
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[65/99] NAPOLEON BONAPARTE Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[66/99] Napoleon Born To Party T-Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[67/99] NATALIE PORTMAN Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[68/99] PATRICK SWAYZE Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[69/99] PRINCE HARRY Vintage Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[70/99] Princess Diana Retro Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[71/99] Princess Diana Retro Sweatshirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[72/99] QUEEN ELIZABETH II Retro Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[73/99] Retro Dr. Sturgis Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[74/99] RETRO FINN WOLFHARD Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[75/99] Retro Fitzwilliam Darcy Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[76/99] RETRO Josh Saphiro Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[77/99] RETRO RICK MORANIS Shirt - Rick Moranis Vintage tees
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[78/99] RETRO SEBASTIAN STAN Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[79/99] RICKY MARTIN Vintage Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[80/99] ROB LOWE Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[81/99] ROBERT REDFORD Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[82/99] Rod Kimble Retro Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[83/99] Rosalia Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[84/99] Salvatore Brother's Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[85/99] Sasha Colby Retro Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[86/99] Scott Calvin
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[87/99] SERENA VAN WOODSEN Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[88/99] SERJ TANKIAN Vintage T-shirt - Serj Tankian Bootleg Tees
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[89/99] SKEET ULRICH Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[90/99] SOPHIE THATCHER Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[91/99] STEPHEN KING Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[92/99] THOMAS DOHERTY Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[93/99] TIM ALLEN Vintage Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[94/99] Todd Chrisley Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[95/99] Tom Jones Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[96/99] TOM SELLECK Vintage Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[97/99] Troy Bolton 90's T-shirt - Troy Bolton Bootleg Tees
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[98/99] Tzuyu Twice
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+[99/99] Vanilla Ice Homage Shirt
+  Shopify variants: 99  fabrics: ['premium comfort colors', 'regular gildan']
+  Printify UK_CC: 9 colors
+  Printify UK_GD: 3 colors
+  Uploading 18 color images to Shopify...
+  ✓ 18 images uploaded, 0 failed
+
+============================================================
+Done: 84  Failed: 15  Skipped: 0

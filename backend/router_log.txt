@@ -1,0 +1,44 @@
+  File "C:\Users\rizky\matcha-tees\backend\auto_router.py", line 16
+    """
+       ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 661-662: truncated \UXXXXXXXX escape
+  File "C:\Users\rizky\matcha-tees\backend\auto_router.py", line 16
+    """
+       ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 661-662: truncated \UXXXXXXXX escape
+  File "C:\Users\rizky\matcha-tees\backend\auto_router.py", line 16
+    """
+       ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 661-662: truncated \UXXXXXXXX escape
+  File "C:\Users\rizky\matcha-tees\backend\auto_router.py", line 16
+    """
+       ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 661-662: truncated \UXXXXXXXX escape
+  File "C:\Users\rizky\matcha-tees\backend\auto_router.py", line 16
+    """
+       ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 661-662: truncated \UXXXXXXXX escape
+  File "C:\Users\rizky\matcha-tees\backend\auto_router.py", line 16
+    """
+       ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 661-662: truncated \UXXXXXXXX escape
+  File "C:\Users\rizky\matcha-tees\backend\auto_router.py", line 16
+    """
+       ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 661-662: truncated \UXXXXXXXX escape
+  File "C:\Users\rizky\matcha-tees\backend\auto_router.py", line 16
+    """
+       ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 661-662: truncated \UXXXXXXXX escape
+  File "C:\Users\rizky\matcha-tees\backend\auto_router.py", line 16
+    """
+       ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 661-662: truncated \UXXXXXXXX escape
+  File "C:\Users\rizky\matcha-tees\backend\auto_router.py", line 16
+    """
+       ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 661-662: truncated \UXXXXXXXX escape
+  File "C:\Users\rizky\matcha-tees\backend\auto_router.py", line 16
+    """
+       ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 661-662: truncated \UXXXXXXXX escape

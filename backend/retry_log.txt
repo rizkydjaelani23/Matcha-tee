@@ -1,0 +1,74 @@
+Found 7 error products to retry
+
+[7697446961265] Fitzwilliam Darcy Regular Shirt
+  Printify: 6a2f8638f7b641794211d6f3
+  Printify product exists
+  Collections: []
+  Published!
+  Waiting for Shopify ID...
+  New Shopify ID: 7697949261937
+  Old product deleted
+  DONE
+
+[7697450729585] Fitzwilliam Darcy Sweatshirt
+  Printify: 6a2f87cdc4f9f296760a2b9e
+  Printify product exists
+  Collections: []
+  Published!
+  Waiting for Shopify ID...
+  New Shopify ID: 7697951293553
+  Old product deleted
+  DONE
+
+[7690140418161] GWEN STEFANI Shirt
+  Printify: 6a2f8967f7b641794211dbd6
+  Printify product exists
+  Collections: []
+  Published!
+  Waiting for Shopify ID...
+  New Shopify ID: 7697952342129
+  Old product deleted
+  DONE
+
+[7690127868017] Momo Twice
+  Printify: 6a2f95fea4bf9acfe9047b02
+  Printify product exists
+  Collections: []
+  Published!
+  Waiting for Shopify ID...
+  New Shopify ID: 7697954570353
+  Old product deleted
+  DONE
+
+[7690101915761] Princess Diana Retro Shirt
+  Printify: 6a2f999373ad2eacae10b91c
+  Printify product exists
+  Collections: []
+  Published!
+  Waiting for Shopify ID...
+  New Shopify ID: 7697955389553
+  Old product deleted
+  DONE
+
+[7690093166705] STEPHEN KING Shirt
+  Printify: 6a2fa43bbe63d55ae20cd261
+  Printify product exists
+  Collections: []
+  Published!
+  Waiting for Shopify ID...
+  New Shopify ID: 7697957322865
+  Old product deleted
+  DONE
+
+[7690146709617] Tzuyu Twice
+  Printify: 6a2fa7eebe63d55ae20cd536
+  Printify product exists
+  Collections: []
+  Published!
+  Waiting for Shopify ID...
+  New Shopify ID: 7697957945457
+  Old product deleted
+  DONE
+
+========================================
+Retried: 7 fixed, 0 still failing
