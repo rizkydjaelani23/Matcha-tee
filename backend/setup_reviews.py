@@ -62,7 +62,7 @@ TMT_STARS = """\
 REVIEWS_HOME = """\
 {%- comment -%}The Matcha Tee — homepage customer reviews{%- endcomment -%}
 <section id="tmt-rh-{{ section.id }}" class="tmt-rh">
-  <div class="tmt-rh__wrap page-width">
+  <div class="tmt-rh__wrap">
 
     <header class="tmt-rh__header">
       <div class="tmt-rh__agg-row">
@@ -111,8 +111,12 @@ REVIEWS_HOME = """\
   #tmt-rh-{{ section.id }}{
     background:{{ section.settings.bg }};
     padding:64px 0;
+    overflow-x:hidden;
   }
-  .tmt-rh__wrap{max-width:1200px;margin:0 auto;padding:0 24px;}
+  .tmt-rh__wrap{
+    max-width:1200px;margin:0 auto;
+    padding:0 24px;box-sizing:border-box;width:100%;
+  }
   .tmt-rh__header{text-align:center;margin-bottom:48px;}
   .tmt-rh__agg-row{display:flex;align-items:center;justify-content:center;gap:10px;margin-bottom:14px;}
   .tmt-rh__agg{font-size:.9rem;color:{{ section.settings.text }};opacity:.7;}
@@ -132,6 +136,7 @@ REVIEWS_HOME = """\
     border:1px solid {{ section.settings.card_border }};
     border-radius:12px;padding:22px 20px;
     display:flex;flex-direction:column;gap:14px;
+    min-width:0;
   }
   .tmt-rh__card-stars{line-height:1;}
   .tmt-rh__card-text{
@@ -163,8 +168,8 @@ REVIEWS_HOME = """\
   .tmt-rh__btn:hover{opacity:.82;}
 
   @media(max-width:640px){
-    #tmt-rh-{{ section.id }}{padding:44px 0;}
-    .tmt-rh__grid{grid-template-columns:1fr;}
+    #tmt-rh-{{ section.id }}{padding:24px 0 44px;}
+    .tmt-rh__grid{grid-template-columns:1fr;gap:16px;}
   }
 </style>
 
