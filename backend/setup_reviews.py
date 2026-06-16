@@ -163,7 +163,7 @@ REVIEWS_HOME = """\
   .tmt-rh__btn:hover{opacity:.82;}
 
   @media(max-width:640px){
-    #tmt-rh-{{ section.id }}{padding:44px 0;}
+    #tmt-rh-{{ section.id }}{padding:24px 0 44px;}
     .tmt-rh__grid{grid-template-columns:1fr;}
   }
 </style>
